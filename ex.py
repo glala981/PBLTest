@@ -43,6 +43,8 @@ while (True):
         break
 
 # 카메라 장치에서 받아온 메모리해제
-cap.release()
+capture.release()
 # 모든 윈도우창 종료
 cv2.destroyAllWindows()
+
+print()
