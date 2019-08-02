@@ -46,5 +46,3 @@ while (True):
 capture.release()
 # 모든 윈도우창 종료
 cv2.destroyAllWindows()
-
-print()
