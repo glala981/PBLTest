@@ -23,7 +23,7 @@ while (True):
     # 한마디로 정리하면 frame별로 capture한다
     ret, frame = capture.read()
 
-    # frame = cv2.flip(frame,1)
+    frame = cv2.flip(frame,1)   #좌우반전
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
 
